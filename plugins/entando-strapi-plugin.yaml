@@ -1,0 +1,5 @@
+image: kamleshbobde/entando-strapi-test:5.0.0
+dbms: postgresql
+ingressPath: "/entando-strapi-api"
+deploymentBaseName: "entando-strapi"
+healthCheckPath: "/api/health"
